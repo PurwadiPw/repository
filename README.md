@@ -1,0 +1,2 @@
+# repository
+Laravel Repository Interface
