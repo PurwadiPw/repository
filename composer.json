@@ -1,0 +1,36 @@
+{
+    "name":"pw/repository",
+    "description":"Repository Interface Pattern",
+    "keywords":[
+        "league",
+        "repository",
+        "repository pattern"
+    ],
+    "homepage":"https://github.com/PurwadiPw/repository",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Purwadi",
+            "email":"purwadie97@gmail.com",
+            "role":"Developer"
+        }
+    ],
+    "require":{
+        "php":">=5.6.4",
+        "illuminate/contracts":"~5.0|~5.1",
+        "illuminate/database":"~5.0|~5.1"
+    },
+    "require-dev":{
+        "scrutinizer/ocular":"~1.1",
+        "phpunit/phpunit":"4.*",
+        "orchestra/testbench":"3.0.*",
+        "mockery/mockery":"^0.9.4",
+        "fzaninotto/faker":"^1.4",
+        "laracasts/testdummy":"^2.3"
+    },
+    "autoload":{
+        "psr-4":{
+            "Pw\\Repository\\":"src"
+        }
+    }
+}
